@@ -7,4 +7,5 @@ button.addEventListener('click', function() {
     let index = parseInt((Math.random() * colors.length) + 1);
 
     box.style.background = `${colors[index]}`;
+    button.style.color = `${colors[index]}`;
 });
