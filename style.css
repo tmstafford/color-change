@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 80vw;
+    height: 70vh;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box p {
+    color: #fff;
+    font-size: 1.3rem;
+}
+.btn {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+    font-size: 1.7rem;
+    padding: 10px;
+}
